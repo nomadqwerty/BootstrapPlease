@@ -2,7 +2,6 @@
 /* header */
 .container {
   background: red;
-  height: 600px;
   font-family: "IBM Plex Mono", monospace;
   color: blue;
 }
@@ -62,7 +61,7 @@
 /* main */
 .main2 {
   background: rgb(23, 184, 23);
-  width: 107.3%;
+  width: 107.52%;
   height: 190px;
   position: relative;
 }
