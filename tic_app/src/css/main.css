@@ -1,9 +1,12 @@
 /* /////////////////////////////////////////////////////////////////// */
 /* header */
-.container {
-  background: red;
+body {
   font-family: "IBM Plex Mono", monospace;
   color: blue;
+  width: 100%;
+}
+.container {
+  background: red;
 }
 /* menu placement */
 .box1 {
