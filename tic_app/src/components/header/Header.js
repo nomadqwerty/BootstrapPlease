@@ -1,5 +1,4 @@
 import React, { useRef, useEffect } from "react";
-import Main1 from "../sections/Main1";
 import Nav from "./Nav";
 import List from "./dropDown/list";
 import SearchBar from "./dropDown/searchBar";
@@ -41,7 +40,6 @@ const Header = () => {
           </div>
         </div>
         {/* section1  */}
-        <Main1 />
       </div>
     </div>
   );
