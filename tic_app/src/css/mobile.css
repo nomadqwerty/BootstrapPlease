@@ -237,8 +237,45 @@
   .main2 {
     background: rgb(23, 184, 23);
     width: 107.3%;
-    height: 190px;
+    height: 230px;
     position: relative;
+    overflow: hidden;
+  }
+  .timeDescription {
+    display: flex;
+    position: relative;
+  }
+  .info {
+    position: relative;
+    margin-left: 30px;
+    margin-right: 5px;
+    top: 30px;
+    display: flex;
+  }
+  .infoAddress {
+    position: relative;
+    margin-right: 60px;
+    margin-left: 120px;
+    top: 50px;
+    display: flex;
+  }
+  .info i {
+    margin-right: 10px;
+    position: relative;
+    top: 5px;
+  }
+  .infoAddress i {
+    margin-right: 10px;
+    position: relative;
+    top: 5px;
+  }
+
+  .addressText {
+    word-wrap: break-word;
+    position: relative;
+    top: 50px;
+    width: 300px;
+    left: 30px;
   }
 }
 
