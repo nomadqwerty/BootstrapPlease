@@ -48,7 +48,7 @@
 
     top: 80px;
     font-size: 30px;
-    left: 9px;
+    left: 28px;
   }
 
   /* /////////////////////////////// */
@@ -114,10 +114,48 @@
   /* main */
   .main2 {
     background: rgb(23, 184, 23);
-    width: 107.3%;
-    height: 190px;
+    width: 105.3%;
+    height: 230px;
     position: relative;
-    right: 5px;
+    overflow: hidden;
+    right: 1px;
+  }
+  .timeDescription {
+    display: flex;
+    position: relative;
+  }
+  .info {
+    position: relative;
+    margin-left: 30px;
+    margin-right: 5px;
+    top: 30px;
+    display: flex;
+  }
+  .infoAddress {
+    position: relative;
+    margin-right: 60px;
+    margin-left: 120px;
+    top: 70px;
+    display: flex;
+  }
+  .info i {
+    margin-right: 10px;
+    position: relative;
+    top: 5px;
+  }
+  .infoAddress i {
+    margin-right: 10px;
+    margin-left: 70px;
+    position: relative;
+    top: 5px;
+  }
+
+  .addressText {
+    word-wrap: break-word;
+    position: relative;
+    top: 80px;
+    width: 450px;
+    left: 40px;
   }
 }
 
@@ -240,6 +278,7 @@
     height: 230px;
     position: relative;
     overflow: hidden;
+    right: 1px;
   }
   .timeDescription {
     display: flex;
@@ -393,9 +432,47 @@
   /* main */
   .main2 {
     background: rgb(23, 184, 23);
-    width: 107.3%;
-    height: 190px;
+    width: 111.3%;
+    height: 230px;
     position: relative;
-    left: 4.2px;
+    overflow: hidden;
+    right: 1px;
+  }
+  .timeDescription {
+    display: flex;
+    position: relative;
+  }
+  .info {
+    position: relative;
+    margin-left: 10px;
+    margin-right: 5px;
+    top: 30px;
+    display: flex;
+  }
+  .infoAddress {
+    position: relative;
+    margin-right: 60px;
+    margin-left: 10px;
+    top: 70px;
+    display: flex;
+  }
+  .info i {
+    margin-right: 10px;
+    position: relative;
+    top: 5px;
+  }
+  .infoAddress i {
+    margin-right: 10px;
+    margin-left: 70px;
+    position: relative;
+    top: 5px;
+  }
+
+  .addressText {
+    word-wrap: break-word;
+    position: relative;
+    top: 80px;
+    width: 200px;
+    left: 30px;
   }
 }

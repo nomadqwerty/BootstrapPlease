@@ -118,9 +118,47 @@
   .main2 {
     background: rgb(23, 184, 23);
     width: 105.3%;
-    height: 190px;
+    height: 230px;
     position: relative;
-    right: 6px;
+    overflow: hidden;
+    right: 5px;
+  }
+  .timeDescription {
+    display: flex;
+    position: relative;
+  }
+  .info {
+    position: relative;
+    margin-left: 115px;
+    margin-right: 5px;
+    top: 30px;
+    display: flex;
+  }
+  .infoAddress {
+    position: relative;
+    margin-right: 60px;
+    margin-left: 210px;
+    top: 70px;
+    display: flex;
+  }
+  .info i {
+    margin-right: 10px;
+    position: relative;
+    top: 5px;
+  }
+  .infoAddress i {
+    margin-right: 10px;
+    margin-left: 70px;
+    position: relative;
+    top: 5px;
+  }
+
+  .addressText {
+    word-wrap: break-word;
+    position: relative;
+    top: 80px;
+    width: 450px;
+    left: 125px;
   }
 }
 
@@ -244,8 +282,46 @@
   .main2 {
     background: rgb(23, 184, 23);
     width: 105.3%;
-    height: 190px;
+    height: 230px;
     position: relative;
-    right: 2px;
+    overflow: hidden;
+    right: 5px;
+  }
+  .timeDescription {
+    display: flex;
+    position: relative;
+  }
+  .info {
+    position: relative;
+    margin-left: 115px;
+    margin-right: 5px;
+    top: 30px;
+    display: flex;
+  }
+  .infoAddress {
+    position: relative;
+    margin-right: 60px;
+    margin-left: 210px;
+    top: 70px;
+    display: flex;
+  }
+  .info i {
+    margin-right: 10px;
+    position: relative;
+    top: 5px;
+  }
+  .infoAddress i {
+    margin-right: 10px;
+    margin-left: 70px;
+    position: relative;
+    top: 5px;
+  }
+
+  .addressText {
+    word-wrap: break-word;
+    position: relative;
+    top: 80px;
+    width: 450px;
+    left: 125px;
   }
 }
