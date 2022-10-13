@@ -5,6 +5,7 @@ import "../css/mobile.css";
 
 import Header from "./header/Header";
 import Main1 from "./sections/Main1";
+import Main2 from "./sections/Main2";
 
 const App = () => {
   const hideDropDown = (e) => {
@@ -21,6 +22,7 @@ const App = () => {
       <div onClick={hideDropDown}>
         <Header />
         <Main1 />
+        <Main2 />
       </div>
     </React.Fragment>
   );

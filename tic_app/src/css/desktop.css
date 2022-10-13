@@ -1,5 +1,5 @@
 /* desktop */
-@media only screen and (max-width: 2080px) and (min-width: 950px) {
+@media only screen and (max-width: 2080px) and (min-width: 1300px) {
   /* /////////////////////////////////////////////////////////////////// */
   /* header */
   body {
@@ -128,6 +128,14 @@
     display: flex;
     position: relative;
   }
+  .name {
+    word-wrap: break-word;
+    position: relative;
+    left: 500px;
+    top: 10px;
+    font-size: 25px;
+    font-weight: 500;
+  }
   .info {
     position: relative;
     margin-left: 270px;
@@ -198,11 +206,11 @@
   }
   .logo {
     position: relative;
-    left: 300px;
+    left: 330px;
   }
   .logoTxt {
     position: relative;
-    left: 140px;
+    left: 160px;
   }
   /* search placement*/
   .box3 {
@@ -215,7 +223,7 @@
 
     top: 80px;
     font-size: 30px;
-    left: 100px;
+    left: 135px;
   }
 
   /* /////////////////////////////// */
@@ -287,12 +295,21 @@
     height: 230px;
     position: relative;
     overflow: hidden;
-    right: 5px;
+    left: 12px;
+  }
+  .name {
+    word-wrap: break-word;
+    position: relative;
+    left: 410px;
+    top: 10px;
+    font-size: 25px;
+    font-weight: 500;
   }
   .timeDescription {
     display: flex;
     position: relative;
   }
+
   .info {
     position: relative;
     margin-left: 200px;
@@ -364,11 +381,11 @@
   }
   .logo {
     position: relative;
-    left: 300px;
+    left: 280px;
   }
   .logoTxt {
     position: relative;
-    left: 140px;
+    left: 130px;
   }
   /* search placement*/
   .box3 {
@@ -454,6 +471,14 @@
     position: relative;
     overflow: hidden;
     right: 5px;
+  }
+  .name {
+    word-wrap: break-word;
+    position: relative;
+    left: 310px;
+    top: 10px;
+    font-size: 25px;
+    font-weight: 500;
   }
   .timeDescription {
     display: flex;

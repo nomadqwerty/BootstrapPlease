@@ -124,10 +124,18 @@
     display: flex;
     position: relative;
   }
+  .name {
+    word-wrap: break-word;
+    position: relative;
+    left: 100px;
+    top: 10px;
+    font-size: 25px;
+    font-weight: 500;
+  }
   .info {
     position: relative;
-    margin-left: 30px;
-    margin-right: 5px;
+    margin-left: 50px;
+    margin-right: 20px;
     top: 30px;
     display: flex;
   }
@@ -275,7 +283,7 @@
   .main2 {
     background: rgb(23, 184, 23);
     width: 107.3%;
-    height: 230px;
+    height: 300px;
     position: relative;
     overflow: hidden;
     right: 1px;
@@ -284,18 +292,26 @@
     display: flex;
     position: relative;
   }
+  .name {
+    word-wrap: break-word;
+    position: relative;
+    left: 18px;
+    top: 20px;
+    font-size: 25px;
+    font-weight: 500;
+  }
   .info {
     position: relative;
     margin-left: 30px;
     margin-right: 5px;
-    top: 30px;
+    top: 50px;
     display: flex;
   }
   .infoAddress {
     position: relative;
     margin-right: 60px;
     margin-left: 120px;
-    top: 50px;
+    top: 80px;
     display: flex;
   }
   .info i {
@@ -312,7 +328,7 @@
   .addressText {
     word-wrap: break-word;
     position: relative;
-    top: 50px;
+    top: 75px;
     width: 300px;
     left: 30px;
   }
@@ -437,6 +453,14 @@
     position: relative;
     overflow: hidden;
     right: 1px;
+  }
+  .name {
+    word-wrap: break-word;
+    position: relative;
+    left: 20px;
+    top: 20px;
+    font-size: 17px;
+    font-weight: 500;
   }
   .timeDescription {
     display: flex;
