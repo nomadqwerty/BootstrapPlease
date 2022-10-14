@@ -279,9 +279,9 @@
     left: 20px;
   }
   /* /////////////////////////////// */
-  /* main */
+  /* main info */
   .main2 {
-    background: rgb(23, 184, 23);
+    background: rgba(31, 23, 184, 0.286);
     width: 107.3%;
     height: 300px;
     position: relative;
@@ -331,6 +331,45 @@
     top: 75px;
     width: 300px;
     left: 30px;
+  }
+  /* main3 summary */
+  .main3 {
+    background: rgba(51, 29, 215, 0.389);
+    width: 107.3%;
+    height: 300px;
+    position: relative;
+    overflow: scroll;
+    right: 1px;
+  }
+  .summaryText {
+    word-wrap: break-word;
+    width: 320px;
+    position: relative;
+    left: 10px;
+  }
+  .messageIcon {
+    position: relative;
+    top: 10px;
+    display: flex;
+  }
+  .messageIcon i {
+    margin-right: 10px;
+    position: relative;
+    top: 5px;
+  }
+  .summaryItems {
+    list-style: none;
+    position: relative;
+    right: 22px;
+  }
+  .summaryItems div {
+    display: flex;
+    margin-top: 10px;
+  }
+  .summaryItems div i {
+    position: relative;
+    margin-right: 10px;
+    top: 5px;
   }
 }
 
