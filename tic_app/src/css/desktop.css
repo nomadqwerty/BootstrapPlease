@@ -5,6 +5,7 @@
   body {
     font-family: "IBM Plex Mono", monospace;
     color: blue;
+    background: rgba(0, 21, 255, 0.253);
     width: 100%;
   }
   .dropdown {
@@ -147,7 +148,7 @@
     position: relative;
     margin-right: 60px;
     margin-left: 520px;
-    top: 70px;
+    top: 40px;
     display: flex;
   }
   .info i {
@@ -165,9 +166,54 @@
   .addressText {
     word-wrap: break-word;
     position: relative;
-    top: 80px;
+    top: 45px;
     width: 100%;
-    left: 320px;
+    left: 420px;
+  }
+  /* main3 summary */
+  .main3::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+  }
+  .main3 {
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-y: scroll;
+    background: rgba(51, 29, 215, 0.389);
+    width: 102.5%;
+    height: 300px;
+    position: relative;
+    overflow: scroll;
+    right: 5px;
+  }
+  .summaryText {
+    word-wrap: break-word;
+    width: 1080px;
+    position: relative;
+    left: 10px;
+  }
+  .messageIcon {
+    position: relative;
+    top: 10px;
+    display: flex;
+  }
+  .messageIcon i {
+    margin-right: 10px;
+    position: relative;
+    top: 5px;
+  }
+  .summaryItems {
+    list-style: none;
+    position: relative;
+    right: 22px;
+  }
+  .summaryItems div {
+    display: flex;
+    margin-top: 10px;
+  }
+  .summaryItems div i {
+    position: relative;
+    margin-right: 10px;
+    top: 5px;
   }
 }
 
@@ -290,7 +336,7 @@
   /* /////////////////////////////// */
   /* main */
   .main2 {
-    background: rgb(23, 184, 23);
+    background: rgba(31, 23, 184, 0.286);
     width: 100%;
     height: 230px;
     position: relative;
@@ -321,7 +367,7 @@
     position: relative;
     margin-right: 60px;
     margin-left: 445px;
-    top: 70px;
+    top: 60px;
     display: flex;
   }
   .info i {
@@ -339,9 +385,54 @@
   .addressText {
     word-wrap: break-word;
     position: relative;
-    top: 80px;
+    top: 50px;
     width: 100%;
-    left: 235px;
+    left: 330px;
+  }
+  /* main3 summary */
+  .main3::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+  }
+  .main3 {
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-y: scroll;
+    background: rgba(51, 29, 215, 0.389);
+    width: 100%;
+    height: 300px;
+    position: relative;
+    overflow: scroll;
+    left: 12px;
+  }
+  .summaryText {
+    word-wrap: break-word;
+    width: 1080px;
+    position: relative;
+    left: 10px;
+  }
+  .messageIcon {
+    position: relative;
+    top: 10px;
+    display: flex;
+  }
+  .messageIcon i {
+    margin-right: 10px;
+    position: relative;
+    top: 5px;
+  }
+  .summaryItems {
+    list-style: none;
+    position: relative;
+    right: 22px;
+  }
+  .summaryItems div {
+    display: flex;
+    margin-top: 10px;
+  }
+  .summaryItems div i {
+    position: relative;
+    margin-right: 10px;
+    top: 5px;
   }
 }
 
@@ -465,7 +556,7 @@
   /* /////////////////////////////// */
   /* main */
   .main2 {
-    background: rgb(23, 184, 23);
+    background: rgba(31, 23, 184, 0.286);
     width: 100%;
     height: 230px;
     position: relative;
@@ -486,7 +577,7 @@
   }
   .info {
     position: relative;
-    margin-left: 165px;
+    margin-left: 155px;
     margin-right: 100px;
     top: 30px;
     display: flex;
@@ -513,8 +604,53 @@
   .addressText {
     word-wrap: break-word;
     position: relative;
-    top: 80px;
+    top: 60px;
     width: 100%;
-    left: 150px;
+    left: 250px;
+  }
+  /* main3 summary */
+  .main3::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+  }
+  .main3 {
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-y: scroll;
+    background: rgba(51, 29, 215, 0.389);
+    width: 100%;
+    height: 300px;
+    position: relative;
+    overflow: scroll;
+    left: 11.6px;
+  }
+  .summaryText {
+    word-wrap: break-word;
+    width: 880px;
+    position: relative;
+    left: 10px;
+  }
+  .messageIcon {
+    position: relative;
+    top: 10px;
+    display: flex;
+  }
+  .messageIcon i {
+    margin-right: 10px;
+    position: relative;
+    top: 5px;
+  }
+  .summaryItems {
+    list-style: none;
+    position: relative;
+    right: 22px;
+  }
+  .summaryItems div {
+    display: flex;
+    margin-top: 10px;
+  }
+  .summaryItems div i {
+    position: relative;
+    margin-right: 10px;
+    top: 5px;
   }
 }
