@@ -1,6 +1,6 @@
 /* ////////////////////////////////////////////////// */
 /* mobile large*/
-@media only screen and (max-width: 600px) and (min-width: 450px) {
+@media only screen and (max-width: 765px) and (min-width: 450px) {
   /* /////////////////////////////////////////////////////////////////// */
   /* header */
   body {
@@ -422,10 +422,56 @@
     margin-right: 10px;
     top: 5px;
   }
+  /* announcment */
+  .main4 {
+    width: 107.3%;
+    position: relative;
+    overflow: hidden;
+    right: 1px;
+  }
+
+  .noticeImgWrap {
+    text-align: center;
+  }
+  .noticelistwrap {
+    position: relative;
+    bottom: 250px;
+    color: white;
+  }
+  .noticeList {
+    list-style: none;
+    position: relative;
+  }
+  .noticeItem {
+    margin-bottom: 20px;
+    word-wrap: break-word;
+  }
+  .noticeDate {
+    word-wrap: break-word;
+  }
+  .noticeDescription div::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+  }
+  .noticeDescription {
+    background: rgba(255, 0, 0, 0);
+    position: relative;
+    left: 17px;
+    bottom: 150px;
+    height: 300px;
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-y: scroll;
+  }
+  .noticeDetails {
+    position: relative;
+    left: 145px;
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
 }
 
 /* mobile tiny*/
-@media only screen and (max-width: 300px) and (min-width: 150px) {
+@media only screen and (max-width: 300px) and (min-width: 0px) {
   /* /////////////////////////////////////////////////////////////////// */
   /* header */
   body {
