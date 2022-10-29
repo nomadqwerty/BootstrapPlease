@@ -19,9 +19,10 @@ const Announcement = () => {
           <p className="noticeDate">date: 2nd november 2022</p>
         </div>
       </div>
-      <div className="summaryText noticeDescription">
+      <div className="noticeDescription">
         <div className="messageIcon noticeDetails">
           <i className="fa fa-info-circle" aria-hidden="true"></i>
+          <div>Info:</div>
         </div>
         <p>
           What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing

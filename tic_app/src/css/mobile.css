@@ -115,7 +115,7 @@
   .main2 {
     background: rgba(31, 23, 184, 0.286);
     width: 105.3%;
-    height: 230px;
+    height: 270px;
     position: relative;
     overflow: hidden;
     right: 1px;
@@ -131,6 +131,14 @@
     top: 10px;
     font-size: 25px;
     font-weight: 500;
+  }
+  .infoImage {
+    filter: blur(4px);
+  }
+  .imageWrapperInfo {
+    position: relative;
+    bottom: 320px;
+    color: white;
   }
   .info {
     position: relative;
@@ -173,7 +181,7 @@
     -ms-overflow-style: none; /* for Internet Explorer, Edge */
     scrollbar-width: none; /* for Firefox */
     overflow-y: scroll;
-    background: rgba(51, 29, 215, 0.389);
+    background: rgba(51, 29, 215, 0);
     width: 105.3%;
     height: 300px;
     position: relative;
@@ -210,6 +218,63 @@
     margin-right: 10px;
     top: 5px;
   }
+  /* announcment */
+  .main4 {
+    width: 105.3%;
+    background: rgba(228, 227, 237, 0);
+    position: relative;
+    overflow: hidden;
+    height: 650px;
+    right: 1px;
+  }
+
+  .noticeImgWrap .noticelistwrap {
+    text-align: center;
+  }
+  .noticelistwrap {
+    position: relative;
+    bottom: 250px;
+    color: white;
+  }
+  .noticeList {
+    list-style: none;
+    position: relative;
+  }
+  .noticeItem {
+    margin-bottom: 20px;
+    word-wrap: break-word;
+  }
+  .noticeDate {
+    word-wrap: break-word;
+  }
+  .noticeDescription::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+  }
+  .noticeDescription {
+    background: rgba(255, 0, 0, 0);
+    position: relative;
+    left: 17px;
+    bottom: 130px;
+    height: 300px;
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-x: hidden;
+    width: 500px;
+    word-wrap: break-word;
+    position: relative;
+    left: 10px;
+  }
+  .noticeDescription p {
+    position: relative;
+    left: 0px;
+    bottom: 10px;
+  }
+  .noticeDetails {
+    position: relative;
+    left: 0px;
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
 }
 
 /* mobile medium*/
@@ -222,11 +287,11 @@
     width: 100%;
   }
   .container {
-    background: aliceblue;
+    background: rgb(91, 169, 238);
   }
   /* menu placement */
   .box1 {
-    background: aliceblue;
+    background: rgba(16, 121, 213, 0);
     /* width: 105%; */
     height: 190px;
   }
@@ -238,7 +303,7 @@
 
   /* logoPlacement */
   .box2 {
-    background: aliceblue;
+    background: rgba(16, 121, 213, 0);
     /* width: 105%; */
     height: 190px;
   }
@@ -252,7 +317,7 @@
   }
   /* search placement*/
   .box3 {
-    background: aliceblue;
+    background: rgba(61, 154, 235, 0);
     /* width: 100%; */
     height: 190px;
   }
@@ -267,13 +332,13 @@
   /* /////////////////////////////// */
   /* dropDownList */
   .main1 {
-    background: aliceblue;
+    background: rgba(16, 121, 213, 0);
     width: 107.3%;
     height: 190px;
   }
   .menuList {
     height: 130px;
-    background: rgb(234, 209, 213);
+    background: rgba(234, 209, 213, 0);
   }
 
   .hidden {
@@ -281,7 +346,7 @@
   }
   /* menu list */
   .dropdownOptions {
-    background: aliceblue;
+    background: rgba(16, 121, 213, 0);
     height: 130px;
   }
   .singleOption {
@@ -294,7 +359,7 @@
     position: relative;
     width: 300px;
     height: 42px;
-    border: 1px solid rgb(92, 92, 207);
+    border: 1px solid rgba(92, 92, 207, 0.548);
     padding: 0px 10px;
     border-radius: 50px;
     top: 10px;
@@ -325,13 +390,22 @@
   }
   /* /////////////////////////////// */
   /* main info */
+
   .main2 {
     background: rgba(31, 23, 184, 0.286);
     width: 107.3%;
-    height: 300px;
+    height: 330px;
     position: relative;
     overflow: hidden;
     right: 1px;
+  }
+  .infoImage {
+    filter: blur(4px);
+  }
+  .imageWrapperInfo {
+    position: relative;
+    bottom: 320px;
+    color: white;
   }
   .timeDescription {
     display: flex;
@@ -385,7 +459,7 @@
     -ms-overflow-style: none; /* for Internet Explorer, Edge */
     scrollbar-width: none; /* for Firefox */
     overflow-y: scroll;
-    background: rgba(51, 29, 215, 0.389);
+    background: rgba(228, 227, 237, 0.573);
     width: 107.3%;
     height: 300px;
     position: relative;
@@ -425,12 +499,14 @@
   /* announcment */
   .main4 {
     width: 107.3%;
+    background: rgba(228, 227, 237, 0.573);
     position: relative;
     overflow: hidden;
+    height: 650px;
     right: 1px;
   }
 
-  .noticeImgWrap {
+  .noticeImgWrap .noticelistwrap {
     text-align: center;
   }
   .noticelistwrap {
@@ -449,7 +525,7 @@
   .noticeDate {
     word-wrap: break-word;
   }
-  .noticeDescription div::-webkit-scrollbar {
+  .noticeDescription::-webkit-scrollbar {
     display: none; /* for Chrome, Safari, and Opera */
   }
   .noticeDescription {
@@ -460,11 +536,20 @@
     height: 300px;
     -ms-overflow-style: none; /* for Internet Explorer, Edge */
     scrollbar-width: none; /* for Firefox */
-    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 325px;
+    word-wrap: break-word;
+    position: relative;
+    left: 10px;
+  }
+  .noticeDescription p {
+    position: relative;
+    left: 0px;
+    bottom: 10px;
   }
   .noticeDetails {
     position: relative;
-    left: 145px;
+    left: 0px;
     font-size: 20px;
     margin-bottom: 30px;
   }
@@ -585,7 +670,7 @@
   .main2 {
     background: rgba(31, 23, 184, 0.286);
     width: 111.3%;
-    height: 230px;
+    height: 300px;
     position: relative;
     overflow: hidden;
     right: 1px;
@@ -598,10 +683,19 @@
     font-size: 17px;
     font-weight: 500;
   }
+  .infoImage {
+    filter: blur(4px);
+  }
+  .imageWrapperInfo {
+    position: relative;
+    bottom: 320px;
+    color: white;
+  }
   .timeDescription {
     display: flex;
     position: relative;
   }
+
   .info {
     position: relative;
     margin-left: 10px;
@@ -643,7 +737,7 @@
     -ms-overflow-style: none; /* for Internet Explorer, Edge */
     scrollbar-width: none; /* for Firefox */
     overflow-y: scroll;
-    background: rgba(51, 29, 215, 0.389);
+    background: rgba(228, 227, 237, 0.573);
     width: 111.3%;
     height: 300px;
     position: relative;
@@ -679,5 +773,62 @@
     position: relative;
     margin-right: 10px;
     top: 5px;
+  }
+  /* announcment */
+  .main4 {
+    width: 111.3%;
+    background: rgba(228, 227, 237, 0.573);
+    position: relative;
+    overflow: hidden;
+    height: 650px;
+    right: 1px;
+  }
+
+  .noticeImgWrap .noticelistwrap {
+    text-align: center;
+  }
+  .noticelistwrap {
+    position: relative;
+    bottom: 250px;
+    color: white;
+  }
+  .noticeList {
+    list-style: none;
+    position: relative;
+  }
+  .noticeItem {
+    margin-bottom: 20px;
+    word-wrap: break-word;
+  }
+  .noticeDate {
+    word-wrap: break-word;
+  }
+  .noticeDescription::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+  }
+  .noticeDescription {
+    background: rgba(255, 0, 0, 0);
+    position: relative;
+    left: 17px;
+    bottom: 150px;
+    height: 300px;
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-x: hidden;
+    width: 235px;
+    word-wrap: break-word;
+    position: relative;
+    left: 10px;
+  }
+  .noticeDescription p {
+    position: relative;
+    left: 0px;
+    bottom: 10px;
+  }
+  .noticeDetails {
+    position: relative;
+    left: 0px;
+    font-size: 20px;
+    margin-bottom: 30px;
   }
 }
