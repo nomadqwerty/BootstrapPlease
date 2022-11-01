@@ -7,6 +7,7 @@ import Header from "./header/Header";
 import Main1 from "./sections/Main1";
 import Main2 from "./sections/Main2";
 import Main3 from "./sections/Main3";
+import Main4 from "./sections/main4";
 
 const App = () => {
   const hideDropDown = (e) => {
@@ -25,6 +26,7 @@ const App = () => {
         <Main1 />
         <Main2 />
         <Main3 />
+        <Main4 />
       </div>
     </React.Fragment>
   );

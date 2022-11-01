@@ -1,15 +1,12 @@
 import React from "react";
-import Announcement from "./Services/notice";
 
-const Main3 = () => {
+const Main4 = () => {
   return (
     <div className="container">
       <div className="row">
         <div className="row">
           <div className="col-lg-12 col-sm-12 col-12">
-            <div className="main4">
-              <Announcement />
-            </div>
+            <div className="main3"></div>
           </div>
         </div>
       </div>
@@ -17,4 +14,4 @@ const Main3 = () => {
   );
 };
 
-export default Main3;
+export default Main4;
