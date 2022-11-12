@@ -278,6 +278,16 @@
     font-size: 20px;
     margin-bottom: 30px;
   }
+
+  /* ////////// Carousel ///////////// */
+  .main5 {
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    background: rgba(51, 29, 215, 0);
+    position: relative;
+    overflow: hidden;
+    left: 10px;
+  }
 }
 
 /* mobile medium*/
@@ -558,6 +568,16 @@
     left: 0px;
     font-size: 20px;
     margin-bottom: 30px;
+  }
+
+  /* carousle */
+  .main5 {
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    background: rgba(51, 29, 215, 0);
+    position: relative;
+    overflow: hidden;
+    left: 10px;
   }
 }
 
@@ -841,5 +861,15 @@
     left: 0px;
     font-size: 20px;
     margin-bottom: 30px;
+  }
+
+  /* /////////////Carousel///////////////// */
+  .main5 {
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    background: rgba(51, 29, 215, 0);
+    position: relative;
+    overflow: hidden;
+    left: 10px;
   }
 }
