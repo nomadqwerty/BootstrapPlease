@@ -22,11 +22,13 @@ const App = () => {
   return (
     <React.Fragment>
       <div onClick={hideDropDown}>
-        <Header />
-        <Main1 />
-        <Main2 />
-        <Main3 />
-        <Main4 />
+        {/* <Header /> */}
+        {/* <Main1 /> */}
+        {/* <Main2 /> */}
+        {/* <Main3 /> */}
+        {/* <Main4 /> */}
+
+        {/* Training Form */}
       </div>
     </React.Fragment>
   );
