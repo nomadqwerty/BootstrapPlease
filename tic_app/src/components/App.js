@@ -9,6 +9,7 @@ import Main2 from "./sections/Main2";
 import Main3 from "./sections/Main3";
 import Main4 from "./sections/main4";
 
+import BookTraining from "./form/Form";
 const App = () => {
   const hideDropDown = (e) => {
     const main1 = document.querySelector(".main1");
@@ -29,6 +30,7 @@ const App = () => {
         {/* <Main4 /> */}
 
         {/* Training Form */}
+        <BookTraining />
       </div>
     </React.Fragment>
   );

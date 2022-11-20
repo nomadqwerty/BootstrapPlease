@@ -288,6 +288,58 @@
     overflow: hidden;
     left: 10px;
   }
+
+  /* /////////// form booking //////////// */
+  .formContainer {
+    background: rgb(20, 72, 118);
+    width: 97%;
+    position: relative;
+    left: 7px;
+    height: 800px;
+  }
+  .infoWrapperTraining {
+    height: 300px;
+  }
+  .formImage {
+    width: 104.89%;
+    height: 1000px;
+    filter: blur(4px);
+  }
+  .trainingInfo {
+    background: rgba(36, 128, 209, 0.54);
+    color: aliceblue;
+    width: 100%;
+    position: relative;
+    bottom: 970px;
+    left: 11.8px;
+    height: 600px;
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-y: scroll;
+  }
+  /* //BookForm//// */
+
+  .BookFormWrap {
+    position: relative;
+    bottom: 950px;
+    background: rgba(16, 119, 208, 0.566);
+    left: 11.8px;
+    width: 100%;
+    height: 300px;
+    color: aliceblue;
+  }
+  .infoField {
+    margin-bottom: 7px;
+  }
+  .signUp {
+    position: relative;
+    left: 200px;
+  }
+  .btn {
+    position: relative;
+    top: 5px;
+    left: 200px;
+  }
 }
 
 /* mobile medium*/
