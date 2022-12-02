@@ -190,7 +190,7 @@
   }
   .summaryText {
     word-wrap: break-word;
-    width: 480px;
+    width: auto;
     position: relative;
     left: 10px;
   }
@@ -325,8 +325,9 @@
     background: rgba(16, 119, 208, 0.566);
     left: 11.8px;
     width: 100%;
-    height: 300px;
+    height: 310px;
     color: aliceblue;
+    padding: 10px;
   }
   .infoField {
     margin-bottom: 7px;
@@ -533,7 +534,7 @@
   }
   .summaryText {
     word-wrap: break-word;
-    width: 320px;
+    width: auto;
     position: relative;
     left: 10px;
   }
@@ -630,6 +631,58 @@
     position: relative;
     overflow: hidden;
     left: 10px;
+  }
+  /* /////////// form booking //////////// */
+  .formContainer {
+    background: rgb(20, 72, 118);
+    width: auto;
+    position: relative;
+    left: 0px;
+    height: 800px;
+  }
+  .infoWrapperTraining {
+    height: 300px;
+  }
+  .formImage {
+    width: 104.89%;
+    height: 1000px;
+    filter: blur(4px);
+  }
+  .trainingInfo {
+    background: rgba(36, 128, 209, 0.54);
+    color: aliceblue;
+    width: 100%;
+    position: relative;
+    bottom: 970px;
+    left: 11.8px;
+    height: 600px;
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-y: scroll;
+  }
+  /* //BookForm//// */
+
+  .BookFormWrap {
+    position: relative;
+    bottom: 950px;
+    background: rgba(16, 119, 208, 0.566);
+    left: 11.8px;
+    width: 100%;
+    height: 310px;
+    color: aliceblue;
+    padding: 10px;
+  }
+  .infoField {
+    margin-bottom: 7px;
+  }
+  .signUp {
+    position: relative;
+    left: 110px;
+  }
+  .btn {
+    position: relative;
+    top: 5px;
+    left: 110px;
   }
 }
 
@@ -923,5 +976,57 @@
     position: relative;
     overflow: hidden;
     left: 10px;
+  }
+  /* /////////// form booking //////////// */
+  .formContainer {
+    background: rgb(20, 72, 118);
+    width: auto;
+    position: relative;
+    left: 0px;
+    height: 800px;
+  }
+  .infoWrapperTraining {
+    height: 300px;
+  }
+  .formImage {
+    width: 104.89%;
+    height: 1000px;
+    filter: blur(4px);
+  }
+  .trainingInfo {
+    background: rgba(36, 128, 209, 0.54);
+    color: aliceblue;
+    width: 91.5%;
+    position: relative;
+    bottom: 970px;
+    left: 11.8px;
+    height: 600px;
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-y: scroll;
+  }
+  /* //BookForm//// */
+
+  .BookFormWrap {
+    position: relative;
+    bottom: 950px;
+    background: rgba(16, 119, 208, 0.566);
+    left: 11.8px;
+    width: 91.3%;
+    height: 310px;
+    color: aliceblue;
+    padding: 10px;
+  }
+  .infoField {
+    margin-bottom: 7px;
+  }
+  .signUp {
+    position: relative;
+    left: 85px;
+  }
+  .btn {
+    position: relative;
+    top: 5px;
+    left: 85px;
   }
 }

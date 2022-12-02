@@ -3,6 +3,8 @@ import "../css/desktop.css";
 import "../css/tablet.css";
 import "../css/mobile.css";
 
+import TicHeader from "./header/TicHeader";
+
 import Header from "./header/Header";
 import Main1 from "./sections/Main1";
 import Main2 from "./sections/Main2";
@@ -14,7 +16,7 @@ const App = () => {
   const hideDropDown = (e) => {
     const main1 = document.querySelector(".main1");
 
-    if (!main1.classList.contains("hidden")) {
+    if (!main1?.classList.contains("hidden")) {
       if (e.target.classList.contains("main2")) {
         main1.classList.add("hidden");
       }
@@ -29,8 +31,11 @@ const App = () => {
         {/* <Main3 /> */}
         {/* <Main4 /> */}
 
+        {/* header */}
+        <TicHeader />
+
         {/* Training Form */}
-        <BookTraining />
+        {/* <BookTraining /> */}
       </div>
     </React.Fragment>
   );
