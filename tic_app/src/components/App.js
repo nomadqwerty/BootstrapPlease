@@ -32,10 +32,10 @@ const App = () => {
         {/* <Main4 /> */}
 
         {/* header */}
-        <TicHeader />
+        {/* <TicHeader /> */}
 
         {/* Training Form */}
-        {/* <BookTraining /> */}
+        <BookTraining />
       </div>
     </React.Fragment>
   );

@@ -4,10 +4,6 @@ import globalState from "../../context/Context";
 
 // form, setForm
 const BookForm = () => {
-  const { forms } = useContext(globalState);
-
-  console.log(forms);
-
   return (
     <div className="BookFormWrap">
       <h1 className="signUp">Sign Up</h1>
