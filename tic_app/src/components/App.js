@@ -13,18 +13,28 @@ import Main4 from "./sections/main4";
 
 import BookTraining from "./form/Form";
 const App = () => {
-  const hideDropDown = (e) => {
-    const main1 = document.querySelector(".main1");
-
-    if (!main1?.classList.contains("hidden")) {
-      if (e.target.classList.contains("main2")) {
-        main1.classList.add("hidden");
+  useEffect(() => {
+    let app = document.querySelector(".App");
+    let burger = document.querySelector(".MenuContainer");
+    app.addEventListener("click", (e) => {
+      if (
+        e.target.classList.contains("iconWrapper") ||
+        e.target.classList.contains("fa-bars") ||
+        e.target.classList.contains("MenuContainer") ||
+        e.target.classList.contains("fa-phone")
+      ) {
+        return;
+      } else {
+        if (!burger.classList?.contains("hidden")) {
+          burger.classList.add("hidden");
+          return;
+        }
       }
-    }
-  };
+    });
+  });
   return (
     <React.Fragment>
-      <div onClick={hideDropDown}>
+      <div className="App">
         {/* <Header /> */}
         {/* <Main1 /> */}
         {/* <Main2 /> */}
@@ -32,10 +42,10 @@ const App = () => {
         {/* <Main4 /> */}
 
         {/* header */}
-        {/* <TicHeader /> */}
+        <TicHeader />
 
         {/* Training Form */}
-        <BookTraining />
+        {/* <BookTraining /> */}
       </div>
     </React.Fragment>
   );

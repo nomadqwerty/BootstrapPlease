@@ -20,6 +20,8 @@
 
   height: 50px;
   width: 50px;
+  border: 2px solid black;
+
   border-radius: 10px;
   position: relative;
   left: 470px;
@@ -27,14 +29,15 @@
 }
 .iconWrapper i {
   position: relative;
-  left: 13px;
-  top: 10px;
+  left: 11px;
+  top: 9px;
   font-size: 30px;
 }
 .iconWrapperContact {
   background: aliceblue;
   height: 50px;
   width: 50px;
+  border: 2px solid black;
   border-radius: 10px;
   position: relative;
   left: 400px;
@@ -42,11 +45,48 @@
 }
 .iconWrapperContact i {
   position: relative;
-  left: 15px;
-  top: 15px;
-  font-size: 20px;
+  left: 10px;
+  top: 9px;
+  font-size: 30px;
 }
 .iconContainer {
   position: relative;
   bottom: 10px;
+}
+
+/* //////////////DROPDOWN///////////////// */
+.hidden {
+  display: none;
+}
+.MenuContainer {
+  background: rgb(0, 255, 21);
+  height: 300px;
+  position: relative;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.MenuContainer[open] {
+  animation: fade-in 700ms forwards;
+}
+.MenuContainer[close] {
+  display: block;
+  inset: 0;
+  animation: fade-out 700ms forwards;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-out {
+  100% {
+    opacity: 0;
+  }
+  0% {
+    opacity: 1;
+  }
 }
